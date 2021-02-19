@@ -1,0 +1,6 @@
+kurento:
+  image: kurento/kurento-media-server
+  container_name: kurento
+  restart: always
+  ports:
+    - "8888:8888"
